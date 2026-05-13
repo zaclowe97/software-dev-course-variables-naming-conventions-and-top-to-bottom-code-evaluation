@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let greeting = "Hello, " + name;
+let location = "Target";
+let totalItems = 5;
+let costPerItem = 20;
+let totalPrice = (totalItems * costPerItem);
 
-console.log(d);
+
+console.log(greeting);
+console.log("You bought " + totalItems + " items for $" + totalPrice + " at " + location + ".");
